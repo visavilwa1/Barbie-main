@@ -9,8 +9,8 @@ body {
 
 .navbar-brand, .navbar-nav .nav-link {
     color:#fff;
+    padding: 25px;
 }
-
 .jumbtron {
     margin-top: 10%;
     color: #fff;
@@ -19,7 +19,6 @@ body {
 #about{
     padding: 50px 0;
 }
-
 .typed-header {
     font-size: 80px;
 
