@@ -12,16 +12,22 @@ body {
     padding: 25px ;
 }
 .jumbotron {
-    margin-top: 10%;
+    margin-top: 0;
     color: #fff;
     padding: 100px 0;
     text-align: center;
+    position: relative;
+
+}
+.container-banner{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
 }
 
 #about{
     padding: 50px 0;
-    position: relative;
- 
+    background-color: #fff;
 }
 
 .typed-header {
@@ -33,16 +39,15 @@ body {
     width: min-content;
 }
 .video-container {
-    position: fixed;
+    position: absolute;
     top: 0;
     left: 0;
     width: 100%;
-    height: 80%;
     overflow: hidden;
-    z-index: -1; 
+    z-index:-1; 
 }
 video {
-   object-fit: none; 
-    width: 100%;
-    height: 100%;
+   object-fit: cover; 
+   width: 100%;
+   height: 100%;
 }
