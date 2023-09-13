@@ -11,14 +11,19 @@ body {
     color:#fff;
     padding: 25px ;
 }
-.jumbtron {
+.jumbotron {
     margin-top: 10%;
     color: #fff;
     padding: 100px 0;
+    text-align: center;
 }
+
 #about{
     padding: 50px 0;
+    position: relative;
+ 
 }
+
 .typed-header {
     font-size: 80px;
 
@@ -28,20 +33,16 @@ body {
     width: min-content;
 }
 .video-container {
-    position: absolute;
+    position: fixed;
     top: 0;
     left: 0;
     width: 100%;
-    height: 70%%;
+    height: 80%;
     overflow: hidden;
     z-index: -1; 
 }
 video {
-   object-fit: cover; 
+   object-fit: none; 
     width: 100%;
     height: 100%;
-}
-
-#Mission-section {
-    margin-top: 90%; 
 }
