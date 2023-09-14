@@ -33,11 +33,12 @@ body {
 }
 
 #about{
-    background-color: rgba(245, 202, 225, 0.6);
+    background-color: rgba(247, 225, 237, 0.6);
     padding: 50px 0;
     position: relative;
     width: 100%;
     margin-top: 35px;
+    z-index: 0;
 }
 h2{
 color: #e2228c;
@@ -91,7 +92,6 @@ video {
 }
 
 #cybertips a {
-    color: #0e09ad; /* Link color */
     text-decoration: none; /* Remove underline from links */
     transition: color 0.3s ease; /* Smooth color transition on hover */
 }
@@ -102,13 +102,13 @@ video {
 
 /* Games Section Styles */
 #games {
-    background-color: #c9d4d7; /* Background color */
-    color: #212121; /* Text color */
+    background-color: #b2e9f9; /* Background color */
+    color: #171515; /* Text color */
     padding: 50px 0; /* Padding top and bottom */
 }
 
 #games h2 {
-    color: #2e0e02; /* Header text color */
+    color: #ed197c; /* Header text color */
 }
 
 #games p {
@@ -137,9 +137,9 @@ video {
 }
 /* Home Section Styles */
 #home {
-    position: relative; /* Set the position to relative */
-    z-index: -2; /* Set a higher z-index to make it appear in front of the video */
-    background-color: rgba(216, 34, 147, 0.6); /* Background color with opacity */
+    position: relative; 
+    z-index: 2; 
+    background-color: rgba(216, 34, 147, 0.6); 
     color: #fff; /* Text color */
     padding: 50px 0; /* Padding top and bottom */
 }
@@ -151,16 +151,20 @@ video {
 
 #home p {
     font-size: 18px; /* Paragraph text size */
-    margin-bottom: 20px; /* Margin below the paragraph */
+    margin-bottom:30px; /* Margin below the paragraph */
 }
 
 #home a.btn {
-    background-color: #fe0596; /* Button background color */
-    color: #fff; /* Button text color */
+    background-color: #fb0e98; /* Button background color */
+    color: #fff; 
     text-decoration: none;
-    padding: 10px 20px; /* Button padding */
-    border-radius: 20px; /* Button border radius */
-    transition: background-color 0.3s ease; /* Smooth background color transition on hover */
+    padding: 10px 20px; 
+    border-radius: 20px; 
+    transition: background-color 0.3s ease; 
+    display: inline-block;
+}
+#home a.btn:hover{
+    background-color:#ff0062;
 }
 
 
