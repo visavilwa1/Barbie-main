@@ -8,9 +8,16 @@ body {
 }
 
 .navbar-brand, .navbar-nav .nav-link {
-    color:#fff;
-    padding: 25px ;
+    color:#d4c0c0;
+    padding: 25px;
 }
+.custom-brand {
+    color: white;
+    font-weight: bold;
+    font-family: 'lora', serif; 
+    font-size: 34px; /* You can adjust the font size as needed */
+}
+
 .jumbotron {
     margin-top: 0;
     color: #fff;
@@ -48,8 +55,11 @@ body {
 
 /* Style the image */
 .about-image img {
-    max-width: 100%; 
+    max-width: 80%; 
     border-radius: 10px; 
+    display: block;
+    margin: 0 auto;
+    max-height: 400px;
     box-shadow: 0 0 10px rgba(0, 0, 0, 0.2); /* Add a subtle shadow to the image */
     transition: transform 0.2s ease-in-out; /* Add a smooth transition effect on hover */
 }
@@ -77,7 +87,28 @@ color: #e2228c;
     width: 100%;
     overflow: hidden; 
     padding-top: 56.25%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
 }
+/* Add this to your styles.css file */
+.social-icons-container {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    z-index: 1; /* To ensure icons appear above the video */
+}
+
+.social-icons-container i {
+    font-size: 32px; /* Adjust the icon size as needed */
+    margin: 0 10px; /* Adjust the spacing between icons */
+    color: #fff; 
+     background-color: #333;
+     border-radius: 50%;
+     padding: 10px;
+}
+
 video {
     position: absolute;
     top: 0;
@@ -122,7 +153,7 @@ video {
 
 /* Games Section Styles */
 #games {
-    background-color: #eccdd5; /* Background color */
+    background-color: rgba(247, 225, 237, 0.6); /* Background color */
     color: #171515; /* Text color */
     padding: 50px 0; /* Padding top and bottom */
 }
@@ -155,37 +186,44 @@ video {
 #games a:hover {
     color: #ff0062; /* Change link color on hover */
 }
-/* Home Section Styles */
+/* Style the #home section */
 #home {
-    position: relative; 
-    z-index: 2; 
-    background-color: rgba(246, 19, 159, 0.6); 
-    color: #fff; /* Text color */
-    padding: 50px 0; /* Padding top and bottom */
+    background-color: #ef0491; 
+    color: #111010; 
+    padding: 100px 0; 
+    text-align: center; 
 }
 
-#home h2 {
-    font-size: 28px; /* Title font size */
-    margin-bottom: 20px; /* Margin below the title */
+#home h1 {
+    font-family: 'Poppins', sans-serif; /* Use a Google Font for headings */
+    font-size: 48px; /* Adjust the font size */
 }
 
 #home p {
-    font-size: 18px; /* Paragraph text size */
-    margin-bottom:30px; /* Margin below the paragraph */
+    font-size: 20px; /* Adjust the font size for paragraphs */
+    margin-bottom: 20px; /* Add spacing between paragraphs */
 }
 
-#home a.btn {
-    background-color: #fb0e98; /* Button background color */
-    color: #fff; 
-    text-decoration: none;
-    padding: 10px 20px; 
-    border-radius: 20px; 
-    transition: background-color 0.3s ease; 
+#home .btn-primary {
+    background-color: #ff1493; /* Set a vibrant pink color for the button */
+    border: none; /* Remove button borders */
+    padding: 10px 20px; /* Add padding to the button */
+    font-size: 18px; /* Adjust the font size for the button text */
+    border-radius: 25px; /* Add rounded corners to the button */
+    transition: background-color 0.3s ease; /* Add a smooth hover effect */
+}
+
+#home .btn-primary:hover {
+    background-color: #ff0066; /* Change button color on hover */
+    color: #e3a9a9; /* Change text color on hover */
+}
+
+/* Center the button */
+#home .btn-primary {
     display: inline-block;
+    margin-top: 20px;
 }
-#home a.btn:hover{
-    background-color:#ff0062;
-}
+
 
 h1, h2, h3, h4, h5, h6 {
     font-family: 'Lora', serif;
@@ -194,7 +232,7 @@ h1, h2, h3, h4, h5, h6 {
 
 /* Style the image */
 .cybertips-image {
-    max-width: 80%; /* Ensure the image doesn't exceed its container width */
+    max-width: 60%; /* Ensure the image doesn't exceed its container width */
     height: auto; /* Maintain the image's aspect ratio */
     border-radius: 10px; /* Add rounded corners to the image */
     box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.2); /* Add a subtle shadow */
