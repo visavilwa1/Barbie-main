@@ -16,18 +16,31 @@ body {
     color: #fff;
     padding: 100px 0;
     text-align: center;
-    position: relative;
+    position: absolute;
 
 }
 .container-banner{
     display: flex;
     flex-direction: column;
     align-items: center;
+    position: fixed;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    background-color: rgba(0, 0, 0, 0.6);
+    padding: 50px;
+    color: #fff;
+   z-index: 1;
+ 
 }
 
 #about{
+    background-color: rgba(0, 0, 0, 0.6);
     padding: 50px 0;
-    background-color: #fff;
+    color: #fff;
+    position: relative;
+    width: 100%;
+    margin-top: -50px;
 }
 
 .typed-header {
@@ -39,15 +52,17 @@ body {
     width: min-content;
 }
 .video-container {
+    position: relative;
+    width: 100%;
+    overflow: hidden; 
+    padding-top: 56.25%;
+}
+video {
     position: absolute;
     top: 0;
     left: 0;
-    width: 100%;
-    overflow: hidden;
-    z-index:-1; 
-}
-video {
    object-fit: cover; 
    width: 100%;
    height: 100%;
 }
+

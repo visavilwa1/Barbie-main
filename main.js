@@ -1,5 +1,5 @@
 
-    const headerText = "Welcome to Barbie's Cyber Security hub";
+    const headerText = "Welcome To Barbie's Cyber Security Hub";
     const headerElement = document.getElementById("typed-header");
     let currentIndex = 0;
     let isDeleting = false;
