@@ -16,6 +16,7 @@ body {
     color: #fff;
     padding: 100px 0;
     text-align: center;
+    align-items: centerS;
     position: absolute;
 
 }
@@ -23,24 +24,27 @@ body {
     display: flex;
     flex-direction: column;
     align-items: center;
-    position: fixed;
+    position: relative;
     top: 50%;
     left: 50%;
     transform: translate(-50%, -50%);
     background-color: rgba(0, 0, 0, 0.6);
     padding: 50px;
     color: #fff;
-   z-index: 1;
+    z-index: 1;
+    transition:top 0.3s ease;
  
 }
 
 #about{
-    background-color: rgba(0, 0, 0, 0.6);
+    background-color: rgba(245, 202, 225, 0.6);
     padding: 50px 0;
-    color: #fff;
     position: relative;
     width: 100%;
-    margin-top: -50px;
+    margin-top: 35px;
+}
+h2{
+color: #e2228c;
 }
 
 .typed-header {
@@ -65,4 +69,103 @@ video {
    width: 100%;
    height: 100%;
 }
+/* CyberTips Section Styles */
+#cybertips {
+    color: #101011; /* Text color */
+    padding: 50px 0; /* Padding top and bottom */
+}
+
+#cybertips h2 {
+    color: #ff0084; /* Header text color */
+}
+
+#cybertips p {
+    font-size: 18px; /* Paragraph text size */
+    margin-bottom: 20px; /* Margin below the paragraph */
+}
+
+#cybertips ul {
+    list-style-type: disc; /* List item style */
+    padding-left: 20px; /* Left padding for the list */
+    font-size: 16px; /* List item text size */
+}
+
+#cybertips li {
+    margin-bottom: 10px; /* Margin below each list item */
+}
+
+#cybertips a {
+    color: #0e09ad; /* Link color */
+    text-decoration: none; /* Remove underline from links */
+    transition: color 0.3s ease; /* Smooth color transition on hover */
+}
+
+#cybertips a:hover {
+    color: #FF4500; /* Change link color on hover */
+}
+
+/* Games Section Styles */
+#games {
+    background-color: #c9d4d7; /* Background color */
+    color: #212121; /* Text color */
+    padding: 50px 0; /* Padding top and bottom */
+}
+
+#games h2 {
+    color: #2e0e02; /* Header text color */
+}
+
+#games p {
+    font-size: 18px; /* Paragraph text size */
+    margin-bottom: 20px; /* Margin below the paragraph */
+}
+
+#games ul {
+    list-style-type: none; /* Remove the default list style */
+    padding-left: 0; /* Remove left padding for the list */
+    font-size: 16px; /* List item text size */
+}
+
+#games li {
+    margin-bottom: 10px; /* Margin below each list item */
+}
+
+#games a {
+    color: #ff00a2; /* Link color */
+    text-decoration: none; /* Remove underline from links */
+    transition: color 0.3s ease; /* Smooth color transition on hover */
+}
+
+#games a:hover {
+    color: #ff0062; /* Change link color on hover */
+}
+/* Home Section Styles */
+#home {
+    position: relative; /* Set the position to relative */
+    z-index: -2; /* Set a higher z-index to make it appear in front of the video */
+    background-color: rgba(216, 34, 147, 0.6); /* Background color with opacity */
+    color: #fff; /* Text color */
+    padding: 50px 0; /* Padding top and bottom */
+}
+
+#home h2 {
+    font-size: 28px; /* Title font size */
+    margin-bottom: 20px; /* Margin below the title */
+}
+
+#home p {
+    font-size: 18px; /* Paragraph text size */
+    margin-bottom: 20px; /* Margin below the paragraph */
+}
+
+#home a.btn {
+    background-color: #fe0596; /* Button background color */
+    color: #fff; /* Button text color */
+    text-decoration: none;
+    padding: 10px 20px; /* Button padding */
+    border-radius: 20px; /* Button border radius */
+    transition: background-color 0.3s ease; /* Smooth background color transition on hover */
+}
+
+
 
