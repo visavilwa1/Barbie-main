@@ -15,8 +15,15 @@ body {
     color: white;
     font-weight: bold;
     font-family: 'lora', serif; 
-    font-size: 34px; /* You can adjust the font size as needed */
+    font-size: 34px; 
 }
+
+#about h2,
+#cybertips h2,
+#games h2 {
+    font-family: 'Handlee', cursive; /* Use the Handlee font for headings */
+}
+
 
 .jumbotron {
     margin-top: 0;
@@ -242,4 +249,20 @@ h1, h2, h3, h4, h5, h6 {
 .cybertips-image:hover {
     transform: scale(1.1); /* Increase the image size slightly on hover */
     box-shadow: 0px 0px 15px rgba(0, 0, 0, 0.3); /* Enhance the shadow on hover */
+}
+/* Custom button styles */
+.custom-button {
+    background-color: #ff1493; /* Background color */
+    color: #ebd5d5; /* Text color */
+    padding: 10px 20px; /* Padding around the text */
+    font-size: 18px; /* Font size */
+    border: none; /* Remove button border */
+    border-radius: 25px; /* Add rounded corners */
+    text-decoration: none; /* Remove underline */
+    transition: background-color 0.3s ease; /* Smooth hover effect */
+}
+
+
+.custom-button:hover {
+    background-color: #ff0066; /* Background color on hover */
 }
