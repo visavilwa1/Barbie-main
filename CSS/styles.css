@@ -60,21 +60,21 @@ body {
     margin-bottom: 20px; 
 }
 
-
+/* Style the image */
 .about-image img {
     max-width: 80%; 
     border-radius: 10px; 
     display: block;
     margin: 0 auto;
     max-height: 400px;
-    box-shadow: 0 0 10px rgba(0, 0, 0, 0.2); 
-    transition: transform 0.2s ease-in-out; 
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.2); /* Add a subtle shadow to the image */
+    transition: transform 0.2s ease-in-out; /* Add a smooth transition effect on hover */
 }
 
-
+/* Change the image's size and shadow on hover for a interactive effect */
 .about-image img:hover {
-    transform: scale(1.05); 
-    box-shadow: 0 0 20px rgba(0, 0, 0, 0.3); 
+    transform: scale(1.05); /* Scale the image slightly on hover */
+    box-shadow: 0 0 20px rgba(0, 0, 0, 0.3); /* Increase the shadow on hover */
 }
 
 h2{
@@ -98,18 +98,18 @@ color: #e2228c;
     justify-content: center;
     align-items: center;
 }
-
+/* Add this to your styles.css file */
 .social-icons-container {
     position: absolute;
     top: 50%;
     left: 50%;
     transform: translate(-50%, -50%);
-    z-index: 1; 
+    z-index: 1; /* To ensure icons appear above the video */
 }
 
 .social-icons-container i {
-    font-size: 32px; 
-    margin: 0 10px; 
+    font-size: 32px; /* Adjust the icon size as needed */
+    margin: 0 10px; /* Adjust the spacing between icons */
     color: #fff; 
      background-color: #333;
      border-radius: 50%;
@@ -126,52 +126,52 @@ video {
 }
 /* CyberTips Section Styles */
 #cybertips {
-    color: #101011; 
-    padding: 50px 0; 
+    color: #101011; /* Text color */
+    padding: 50px 0; /* Padding top and bottom */
 }
 
 #cybertips h2 {
-    color: #ff0084; 
+    color: #ff0084; /* Header text color */
 }
 
 #cybertips p {
-    font-size: 18px; 
-    margin-bottom: 20px; 
+    font-size: 18px; /* Paragraph text size */
+    margin-bottom: 20px; /* Margin below the paragraph */
 }
 
 #cybertips ul {
-    list-style-type: disc; 
-    padding-left: 20px; 
-    font-size: 16px; 
+    list-style-type: disc; /* List item style */
+    padding-left: 20px; /* Left padding for the list */
+    font-size: 16px; /* List item text size */
 }
 
 #cybertips li {
-    margin-bottom: 10px; 
+    margin-bottom: 10px; /* Margin below each list item */
 }
 
 #cybertips a {
-    text-decoration: none; 
-    transition: color 0.3s ease; 
+    text-decoration: none; /* Remove underline from links */
+    transition: color 0.3s ease; /* Smooth color transition on hover */
 }
 
 #cybertips a:hover {
-    color: #FF4500; 
+    color: #FF4500; /* Change link color on hover */
 }
 
 /* Games Section Styles */
 #games {
-    background-color: rgba(247, 225, 237, 0.6); 
-    color: #171515; 
-    padding: 50px 0; 
+    background-color: rgba(247, 225, 237, 0.6); /* Background color */
+    color: #171515; /* Text color */
+    padding: 50px 0; /* Padding top and bottom */
 }
 
 #games h2 {
-    color: #ed197c; 
+    color: #ed197c; /* Header text color */
 }
 
 #games p {
     font-size: 18px; 
-    margin-bottom: 20px; 
+    margin-bottom: 20px; /* Margin below the paragraph */
 }
 
 #games ul {
