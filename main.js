@@ -22,6 +22,4 @@
         }
     }
 
-    // Adjust the interval (e.g., 100 milliseconds) for typing speed.
-    const typingInterval = setInterval(typeText, 100);
-
+   
