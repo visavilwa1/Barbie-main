@@ -21,7 +21,19 @@
             isDeleting = false;
         }
     }
-z
-    // Adjust the interval (e.g., 100 milliseconds) for typing speed.
+
     const typingInterval = setInterval(typeText, 100);
+
+document.addEventListener("DOMContentLoaded", function() {
+    const elementsToAnimate = document.querySelectorAll(".animate__animated");
+    elementsToAnimate.forEach(function(element) {
+        element.classList.add("animate__animated", "animate__fadeIn");
+    });
+
+   
+    const containerBanner = document.querySelector(".container-banner");
+    setTimeout(() => {
+        containerBanner.style.top = "0";
+    }, 1000); 
+});
 
