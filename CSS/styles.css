@@ -60,21 +60,21 @@ body {
     margin-bottom: 20px; 
 }
 
-/* Style the image */
+
 .about-image img {
     max-width: 80%; 
     border-radius: 10px; 
     display: block;
     margin: 0 auto;
     max-height: 400px;
-    box-shadow: 0 0 10px rgba(0, 0, 0, 0.2); /* Add a subtle shadow to the image */
-    transition: transform 0.2s ease-in-out; /* Add a smooth transition effect on hover */
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.2); 
+    transition: transform 0.2s ease-in-out; 
 }
 
-/* Change the image's size and shadow on hover for a interactive effect */
+
 .about-image img:hover {
-    transform: scale(1.05); /* Scale the image slightly on hover */
-    box-shadow: 0 0 20px rgba(0, 0, 0, 0.3); /* Increase the shadow on hover */
+    transform: scale(1.05); 
+    box-shadow: 0 0 20px rgba(0, 0, 0, 0.3); 
 }
 
 h2{
@@ -98,18 +98,18 @@ color: #e2228c;
     justify-content: center;
     align-items: center;
 }
-/* Add this to your styles.css file */
+
 .social-icons-container {
     position: absolute;
     top: 50%;
     left: 50%;
     transform: translate(-50%, -50%);
-    z-index: 1; /* To ensure icons appear above the video */
+    z-index: 1; 
 }
 
 .social-icons-container i {
-    font-size: 32px; /* Adjust the icon size as needed */
-    margin: 0 10px; /* Adjust the spacing between icons */
+    font-size: 32px; 
+    margin: 0 10px; 
     color: #fff; 
      background-color: #333;
      border-radius: 50%;
@@ -126,74 +126,74 @@ video {
 }
 /* CyberTips Section Styles */
 #cybertips {
-    color: #101011; /* Text color */
-    padding: 50px 0; /* Padding top and bottom */
+    color: #101011; 
+    padding: 50px 0; 
 }
 
 #cybertips h2 {
-    color: #ff0084; /* Header text color */
+    color: #ff0084; 
 }
 
 #cybertips p {
-    font-size: 18px; /* Paragraph text size */
-    margin-bottom: 20px; /* Margin below the paragraph */
+    font-size: 18px; 
+    margin-bottom: 20px; 
 }
 
 #cybertips ul {
-    list-style-type: disc; /* List item style */
-    padding-left: 20px; /* Left padding for the list */
-    font-size: 16px; /* List item text size */
+    list-style-type: disc; 
+    padding-left: 20px; 
+    font-size: 16px; 
 }
 
 #cybertips li {
-    margin-bottom: 10px; /* Margin below each list item */
+    margin-bottom: 10px; 
 }
 
 #cybertips a {
-    text-decoration: none; /* Remove underline from links */
-    transition: color 0.3s ease; /* Smooth color transition on hover */
+    text-decoration: none; 
+    transition: color 0.3s ease; 
 }
 
 #cybertips a:hover {
-    color: #FF4500; /* Change link color on hover */
+    color: #FF4500; 
 }
 
 /* Games Section Styles */
 #games {
-    background-color: rgba(247, 225, 237, 0.6); /* Background color */
-    color: #171515; /* Text color */
-    padding: 50px 0; /* Padding top and bottom */
+    background-color: rgba(247, 225, 237, 0.6); 
+    color: #171515; 
+    padding: 50px 0; 
 }
 
 #games h2 {
-    color: #ed197c; /* Header text color */
+    color: #ed197c; 
 }
 
 #games p {
-    font-size: 18px; /* Paragraph text size */
-    margin-bottom: 20px; /* Margin below the paragraph */
+    font-size: 18px; 
+    margin-bottom: 20px; 
 }
 
 #games ul {
-    list-style-type: none; /* Remove the default list style */
-    padding-left: 0; /* Remove left padding for the list */
-    font-size: 16px; /* List item text size */
+    list-style-type: none; 
+    padding-left: 0; 
+    font-size: 16px; 
 }
 
 #games li {
-    margin-bottom: 10px; /* Margin below each list item */
+    margin-bottom: 10px; 
 }
 
 #games a {
-    color: #b40574; /* Link color */
-    text-decoration: none; /* Remove underline from links */
-    transition: color 0.3s ease; /* Smooth color transition on hover */
+    color: #b40574; 
+    text-decoration: none; 
+    transition: color 0.3s ease; 
 }
 
 #games a:hover {
-    color: #ff0062; /* Change link color on hover */
+    color: #ff0062; 
 }
-/* Style the #home section */
+
 #home {
     background-color: #ef0491; 
     color: #111010; 
@@ -202,27 +202,27 @@ video {
 }
 
 #home h1 {
-    font-family: 'Poppins', sans-serif; /* Use a Google Font for headings */
-    font-size: 48px; /* Adjust the font size */
+    font-family: 'Poppins', sans-serif; 
+    font-size: 48px; 
 }
 
 #home p {
-    font-size: 20px; /* Adjust the font size for paragraphs */
-    margin-bottom: 20px; /* Add spacing between paragraphs */
+    font-size: 20px; 
+    margin-bottom: 20px; 
 }
 
 #home .btn-primary {
-    background-color: #ff1493; /* Set a vibrant pink color for the button */
-    border: none; /* Remove button borders */
-    padding: 10px 20px; /* Add padding to the button */
-    font-size: 18px; /* Adjust the font size for the button text */
-    border-radius: 25px; /* Add rounded corners to the button */
-    transition: background-color 0.3s ease; /* Add a smooth hover effect */
+    background-color: #ff1493; 
+    border: none; 
+    padding: 10px 20px; 
+    font-size: 18px; 
+    border-radius: 25px; 
+    transition: background-color 0.3s ease; 
 }
 
 #home .btn-primary:hover {
-    background-color: #ff0066; /* Change button color on hover */
-    color: #e3a9a9; /* Change text color on hover */
+    background-color: #ff0066; 
+    color: #e3a9a9; 
 }
 
 /* Center the button */
@@ -239,34 +239,49 @@ h1, h2, h3, h4, h5, h6 {
 
 /* Style the image */
 .cybertips-image {
-    max-width: 60%; /* Ensure the image doesn't exceed its container width */
-    height: auto; /* Maintain the image's aspect ratio */
-    border-radius: 10px; /* Add rounded corners to the image */
-    box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.2); /* Add a subtle shadow */
-    margin-bottom: 20px; /* Add some space below the image */
+    max-width: 60%; 
+    height: auto; 
+    border-radius: 10px; 
+    box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.2); /
+    margin-bottom: 20px; 
     transition: transform 0.3s ease-in-out;
 }
 .cybertips-image:hover {
-    transform: scale(1.1); /* Increase the image size slightly on hover */
-    box-shadow: 0px 0px 15px rgba(0, 0, 0, 0.3); /* Enhance the shadow on hover */
+    transform: scale(1.1); 
+    box-shadow: 0px 0px 15px rgba(0, 0, 0, 0.3); 
 }
 /* Custom button styles */
 .custom-button {
-    background-color: #ff1493; /* Background color */
-    color: #ebd5d5; /* Text color */
-    padding: 10px 20px; /* Padding around the text */
-    font-size: 18px; /* Font size */
-    border: none; /* Remove button border */
-    border-radius: 25px; /* Add rounded corners */
-    text-decoration: none; /* Remove underline */
-    transition: background-color 0.3s ease; /* Smooth hover effect */
+    background-color: #ff1493; 
+    color: #ebd5d5; 
+    padding: 10px 20px; 
+    font-size: 18px; 
+    border: none; 
+    border-radius: 25px; 
+    text-decoration: none; 
+    transition: background-color 0.3s ease; 
 }
 
 
 .custom-button:hover {
+    background-color: #ff0066; 
+}
+
+#games .btn-primary {
+    background-color: #ff1493; 
+    color: #fff; 
+    border: none; 
+    border-radius: 25px; 
+    padding: 10px 20px; 
+    font-size: 18px; 
+    transition: background-color 0.3s ease; 
+}
+
+#games .btn-primary:hover {
     background-color: #ff0066; /* Background color on hover */
 }
-/* Add this CSS to your styles.css file */
+
+
 .footer {
     background-color: #e0218a;
 }
